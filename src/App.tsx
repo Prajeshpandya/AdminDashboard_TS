@@ -24,7 +24,7 @@ export default function App() {
     <Router>
       <Suspense fallback={<Loader />}>
         <Routes>
-        <Route path="/" element={<Link to="/admin/dashboard">Visit Admin Dashboard</Link>}></Route>
+        <Route path="/" element={<Link to="/admin/dashboard"><button>Visit Admin Dashboard</button></Link>}></Route>
           <Route path="/admin/dashboard" element={<Dashboard />} />
           <Route path="/admin/product" element={<Products />} />
           <Route path="/admin/transaction" element={<Transaction />} />
