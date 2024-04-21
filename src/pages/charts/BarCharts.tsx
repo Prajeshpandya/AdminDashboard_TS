@@ -1,4 +1,3 @@
-import React from "react";
 import AdminSideBar from "../../components/AdminSideBar";
 import { BarChart } from "../../components/Chart";
 
